@@ -595,16 +595,48 @@ stateDiagram-v2
 
 **[物理交互示意图说明]**
 
-面向生图模型描述：
+**1. 内部元件布局示意图 (ASCII):**
 ```
-A high-tech industrial design sketch of Ola Friend AI earbuds, 
-showing the internal component placement including 10mm driver unit, 
-dual microphones, touch sensor area, battery layout, and PCB placement. 
-Side view cross-section showing 27.5 degree angle design, 
-0.7mm titanium wire ear hook structure. Blueprint style, 
-detailed annotations with dimensions, 4k, clean lines, 
-professional product design rendering.
+[Ola Friend 耳机 - 内部结构侧视图]
+
+        耳挂部分 (0.7mm钛合金丝)
+              ╱
+             ╱  液态硅胶涂层
+            ╱
+    ╔══════╱═══════════════════╗
+    ║  ○ 主麦克风              ║  ← 顶部
+    ║                          ║
+    ║  ┌───────────────────┐   ║
+    ║  │   触控感应区       │   ║  ← 外侧触控面
+    ║  │  (电容式传感器)    │   ║
+    ║  └───────────────────┘   ║
+    ║  ┌───────────────────┐   ║
+    ║  │   10mm驱动单元     │   ║  ← 发声单元
+    ║  │   (动圈式扬声器)   │   ║
+    ║  └───────────────────┘   ║
+    ║         ↓ 27.5°          ║  ← 出音嘴角度
+    ║  ┌───────────────────┐   ║
+    ║  │   59mAh电池        │   ║  ← 供电
+    ║  │   (锂聚合物)       │   ║
+    ║  └───────────────────┘   ║
+    ║  ┌───────────────────┐   ║
+    ║  │   BES2700ZP        │   ║  ← 主控PCB
+    ║  │   主控芯片         │   ║
+    ║  └───────────────────┘   ║
+    ║  ○ 副麦克风              ║  ← 底部
+    ╚══════════════════════════╝
 ```
+
+**2. 组件位置说明表:**
+
+| 位置 | 组件 | 功能 | 规格 |
+|------|------|------|------|
+| 顶部 | 主麦克风 | 通话拾音 | MEMS硅麦 |
+| 外侧 | 触控感应区 | 手势控制 | 电容式 |
+| 中部 | 10mm驱动单元 | 音频输出 | 动圈式 |
+| 下部 | 59mAh电池 | 供电 | 锂聚合物 |
+| 底部 | 副麦克风 | 降噪拾音 | MEMS硅麦 |
+| 内部 | BES2700ZP | 主控处理 | 蓝牙5.4 |
 
 ### B. 术语表
 
