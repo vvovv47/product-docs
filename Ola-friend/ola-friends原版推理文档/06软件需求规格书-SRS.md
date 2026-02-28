@@ -2,7 +2,7 @@
 
 **文档版本**: v1.0  
 **产品名称**: Ola Friend AI智能体耳机  
-**发布日期**: 2024年10月  
+**发布日期**: 2025年10月  
 **文档状态**: 正式发布  
 
 ---
@@ -25,7 +25,7 @@
 
 ```mermaid
 graph BT
-    subgraph 应用层 (Application Layer)
+    subgraph 应用层
         A1[语音交互管理]
         A2[音乐播放控制]
         A3[通话管理]
@@ -34,7 +34,7 @@ graph BT
         A6[OTA升级管理]
     end
     
-    subgraph 服务层 (Service Layer)
+    subgraph 服务层
         S1[蓝牙协议服务]
         S2[音频处理服务]
         S3[电源管理服务]
@@ -43,7 +43,7 @@ graph BT
         S6[语音唤醒服务]
     end
     
-    subgraph 中间件层 (Middleware Layer)
+    subgraph 中间件层
         M1[FreeRTOS内核]
         M2[任务调度器]
         M3[内存管理]
@@ -51,7 +51,7 @@ graph BT
         M5[消息队列]
     end
     
-    subgraph 硬件抽象层 (HAL)
+    subgraph 硬件抽象层
         H1[I2C驱动]
         H2[SPI驱动]
         H3[I2S/PDM驱动]
@@ -61,7 +61,7 @@ graph BT
         H7[电源管理驱动]
     end
     
-    subgraph 硬件层 (Hardware)
+    subgraph 硬件层
         HW1[BES2700ZP SoC]
         HW2[外设模块]
     end
@@ -788,7 +788,7 @@ graph TD
 
 | 版本 | 日期 | 修改内容 | 作者 |
 |------|------|----------|------|
-| v1.0 | 2024-10 | 初始版本 | SRS自动生成 |
+| v1.0 | 2025-10 | 初始版本 | SRS自动生成 |
 
 ---
 
