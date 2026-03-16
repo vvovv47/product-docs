@@ -14,7 +14,7 @@
 ## 现有内容
 
 **石头G10S Pro扫地机器人**
--完整设计文档(PRD / ID / HRS / MD / ICD / SRS / MCP/PNS/IIS/SCA/DPS/SSD/DVP)
+- 完整设计文档(PRD / ID / HRS / MD / ICD / SRS / MCP/PNS/IIS/SCA/DPS/SSD/DVP)
 
 **Ola Friend 智能耳机**
 - 原版产品完整推理文档（PRD / ID / HRS / MD / ICD / SRS / DVP）
